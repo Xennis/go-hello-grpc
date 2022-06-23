@@ -9,6 +9,10 @@ generate:
 	@echo "Generate rpc"
 	buf generate
 
+lint:
+	@echo "Lint proto"
+	buf lint
+
 run:
 	@echo "Run helloworld service"
 	HELLO_WORLD_GRPC_PORT=5001 go run services/helloworld/main.go
