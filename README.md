@@ -4,5 +4,7 @@
 
 ```shell
 make setup generate
-make run
+make run-helloworld
+make run-restgateway
+curl localhost:6001/echo -d '{"message": "Hello World"}'
 ```

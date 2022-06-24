@@ -1,8 +1,8 @@
 syntax = "proto3";
 
-package proto;
+package helloworld;
 
-option go_package = "github.com/Xennis/go-hello-grpc/services/helloworld;proto";
+option go_package = "github.com/Xennis/go-hello-grpc/services/helloworld/proto;helloworld";
 
 service HelloWorldService {
     rpc Echo(EchoRequest) returns (EchoResponse);

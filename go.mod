@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/bufbuild/buf v1.6.0
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.10.3
 	google.golang.org/grpc v1.47.0
 	google.golang.org/grpc/cmd/protoc-gen-go-grpc v1.2.0
 	google.golang.org/protobuf v1.28.0
@@ -15,6 +16,7 @@ require (
 	github.com/go-chi/chi/v5 v5.0.7 // indirect
 	github.com/gofrs/flock v0.8.1 // indirect
 	github.com/gofrs/uuid v4.2.0+incompatible // indirect
+	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect

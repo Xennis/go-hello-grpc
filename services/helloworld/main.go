@@ -7,9 +7,8 @@ import (
 	"net"
 	"os"
 
-	"google.golang.org/grpc"
-
 	pb "github.com/Xennis/go-hello-grpc/services/helloworld/proto"
+	"google.golang.org/grpc"
 )
 
 type server struct {

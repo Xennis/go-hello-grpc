@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package restgateway;
+
+import "services/helloworld/proto/api.proto";
+import "google/api/annotations.proto";
+
+option go_package = "github.com/Xennis/go-hello-grpc/services/restgateway/proto;restgateway";
+
+service ApiGatewayService {
+  rpc Echo(helloworld.EchoRequest) returns (helloworld.EchoResponse) {
+    option (google.api.http) = {
+      post: "/echo"
+      body: "*"
+    };
+  }
+}
